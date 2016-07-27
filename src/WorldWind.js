@@ -191,8 +191,6 @@ define([ // PLEASE KEEP ALL THIS IN ALPHABETICAL ORDER BY MODULE NAME (not direc
         './layer/TiledImageLayer',
         './util/TileFactory',
         './gesture/TiltRecognizer',
-        './ogc/TmsCapabilities',
-        './layer/TmsLayer',
         './gesture/Touch',
         './shapes/TriangleMesh',
         './error/UnsupportedOperationError',
@@ -201,6 +199,7 @@ define([ // PLEASE KEEP ALL THIS IN ALPHABETICAL ORDER BY MODULE NAME (not direc
         './layer/ViewControlsLayer',
         './formats/kml/util/ViewVolume',
         './ogc/WmsCapabilities',
+        './layer/WmscLayer',
         './layer/WmsLayer',
         './ogc/WmsLayerCapabilities',
         './layer/WmsTimeDimensionedLayer',
@@ -399,8 +398,6 @@ define([ // PLEASE KEEP ALL THIS IN ALPHABETICAL ORDER BY MODULE NAME (not direc
               TiledImageLayer,
               TileFactory,
               TiltRecognizer,
-              TmsCapabilities,
-              TmsLayer,
               Touch,
               TriangleMesh,
               UnsupportedOperationError,
@@ -409,6 +406,7 @@ define([ // PLEASE KEEP ALL THIS IN ALPHABETICAL ORDER BY MODULE NAME (not direc
               ViewControlsLayer,
               ViewVolume,
               WmsCapabilities,
+              WmscLayer,
               WmsLayer,
               WmsLayerCapabilities,
               WmsTimeDimensionedLayer,
@@ -765,8 +763,6 @@ define([ // PLEASE KEEP ALL THIS IN ALPHABETICAL ORDER BY MODULE NAME (not direc
         WorldWind['TiledImageLayer'] = TiledImageLayer;
         WorldWind['TileFactory'] = TileFactory;
         WorldWind['TiltRecognizer'] = TiltRecognizer;
-        WorldWind['TmsCapabilities'] = TmsCapabilities;
-        WorldWind['TmsLayer'] = TmsLayer;
         WorldWind['Touch'] = Touch;
         WorldWind['TriangleMesh'] = TriangleMesh;
         WorldWind['UnsupportedOperationError'] = UnsupportedOperationError;
@@ -774,6 +770,7 @@ define([ // PLEASE KEEP ALL THIS IN ALPHABETICAL ORDER BY MODULE NAME (not direc
         WorldWind['Vec3'] = Vec3;
         WorldWind['ViewControlsLayer'] = ViewControlsLayer;
         WorldWind['WmsCapabilities'] = WmsCapabilities;
+        WorldWind['WmscLayer'] = WmscLayer;
         WorldWind['WmsLayer'] = WmsLayer;
         WorldWind['WmsLayerCapabilities'] = WmsLayerCapabilities;
         WorldWind['WmsTimeDimensionedLayer'] = WmsTimeDimensionedLayer;
